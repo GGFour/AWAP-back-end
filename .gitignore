@@ -1,0 +1,5 @@
+# node crap
+node_modules/
+
+# secure data
+.env

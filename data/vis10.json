@@ -1,0 +1,176 @@
+[
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Transport",
+    "Sub-sub-sector": "Road",
+    "Share of global greenhouse gas emissions (%)": 11.9
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Transport",
+    "Sub-sub-sector": "Aviation",
+    "Share of global greenhouse gas emissions (%)": 1.9
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Transport",
+    "Sub-sub-sector": "Rail",
+    "Share of global greenhouse gas emissions (%)": 0.4
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Transport",
+    "Sub-sub-sector": "Pipeline",
+    "Share of global greenhouse gas emissions (%)": 0.3
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Transport",
+    "Sub-sub-sector": "Ship",
+    "Share of global greenhouse gas emissions (%)": 1.7
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Energy use in buildings",
+    "Sub-sub-sector": "Residential",
+    "Share of global greenhouse gas emissions (%)": 10.9
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Energy use in buildings",
+    "Sub-sub-sector": "Commercial",
+    "Share of global greenhouse gas emissions (%)": 6.6
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Energy use in Industry",
+    "Sub-sub-sector": "Iron & Steel",
+    "Share of global greenhouse gas emissions (%)": 7.2
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Energy use in Industry",
+    "Sub-sub-sector": "Non-ferous metals",
+    "Share of global greenhouse gas emissions (%)": 0.7
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Energy use in Industry",
+    "Sub-sub-sector": "Machinery",
+    "Share of global greenhouse gas emissions (%)": 0.5
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Energy use in Industry",
+    "Sub-sub-sector": "Food and tobacco",
+    "Share of global greenhouse gas emissions (%)": 1
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Energy use in Industry",
+    "Sub-sub-sector": "Paper, pulp & printing",
+    "Share of global greenhouse gas emissions (%)": 0.6
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Energy use in Industry",
+    "Sub-sub-sector": "Chemical & petrochemical (energy)",
+    "Share of global greenhouse gas emissions (%)": 3.6
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "Energy use in Industry",
+    "Sub-sub-sector": "Other industry",
+    "Share of global greenhouse gas emissions (%)": 10.6
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Energy in Agri & Fishing",
+    "Share of global greenhouse gas emissions (%)": 1.7
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Unallocated fuel combustion",
+    "Share of global greenhouse gas emissions (%)": 7.8
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Coal",
+    "Share of global greenhouse gas emissions (%)": 1.9
+  },
+  {
+    "Sector": "Energy",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Oil & Natural Gas",
+    "Share of global greenhouse gas emissions (%)": 3.9
+  },
+  {
+    "Sector": "Industry",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Cement",
+    "Share of global greenhouse gas emissions (%)": 3
+  },
+  {
+    "Sector": "Industry",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Chemical & petrochemical (industrial)",
+    "Share of global greenhouse gas emissions (%)": 2.2
+  },
+  {
+    "Sector": "Agriculture, Forestry & Land Use",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Livestock & Manure",
+    "Share of global greenhouse gas emissions (%)": 5.8
+  },
+  {
+    "Sector": "Agriculture, Forestry & Land Use",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Rice Cultivation",
+    "Share of global greenhouse gas emissions (%)": 1.3
+  },
+  {
+    "Sector": "Agriculture, Forestry & Land Use",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Agricultural Soils",
+    "Share of global greenhouse gas emissions (%)": 4.1
+  },
+  {
+    "Sector": "Agriculture, Forestry & Land Use",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Crop Burning",
+    "Share of global greenhouse gas emissions (%)": 3.5
+  },
+  {
+    "Sector": "Agriculture, Forestry & Land Use",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Forest Land",
+    "Share of global greenhouse gas emissions (%)": 2.2
+  },
+  {
+    "Sector": "Agriculture, Forestry & Land Use",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Cropland",
+    "Share of global greenhouse gas emissions (%)": 1.4
+  },
+  {
+    "Sector": "Agriculture, Forestry & Land Use",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Grassland",
+    "Share of global greenhouse gas emissions (%)": 0.1
+  },
+  {
+    "Sector": "Waste",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Landfills",
+    "Share of global greenhouse gas emissions (%)": 1.9
+  },
+  {
+    "Sector": "Waste",
+    "Sub-sector": "",
+    "Sub-sub-sector": "Wastewater",
+    "Share of global greenhouse gas emissions (%)": 1.3
+  }
+ ]

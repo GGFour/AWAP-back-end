@@ -1,0 +1,674 @@
+[
+    {
+        "iceId": "DE08",
+        "sampleId": 205,
+        "analysisDate": "20-Aug-92",
+        "iceAgeAD": 1939,
+        "airAgeAD": 1969,
+        "CO2MixingRatioPpm": 323.2
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 235,
+        "analysisDate": "12-Aug-93",
+        "iceAgeAD": 1938,
+        "airAgeAD": 1968,
+        "CO2MixingRatioPpm": 323.7
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 225,
+        "analysisDate": "2-Aug-93",
+        "iceAgeAD": 1935,
+        "airAgeAD": 1965,
+        "CO2MixingRatioPpm": 319.5
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 226,
+        "analysisDate": "2-Aug-93",
+        "iceAgeAD": 1935,
+        "airAgeAD": 1965,
+        "CO2MixingRatioPpm": 318.8
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 203,
+        "analysisDate": "5-Aug-92",
+        "iceAgeAD": 1933,
+        "airAgeAD": 1963,
+        "CO2MixingRatioPpm": 318.2
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 212,
+        "analysisDate": "14-Jul-93",
+        "iceAgeAD": 1932,
+        "airAgeAD": 1962,
+        "CO2MixingRatioPpm": 318.7
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 213,
+        "analysisDate": "14-Jul-93",
+        "iceAgeAD": 1932,
+        "airAgeAD": 1962,
+        "CO2MixingRatioPpm": 317
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 214,
+        "analysisDate": "15-Jul-93",
+        "iceAgeAD": 1932,
+        "airAgeAD": 1962,
+        "CO2MixingRatioPpm": 319.4
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 215,
+        "analysisDate": "15-Jul-93",
+        "iceAgeAD": 1932,
+        "airAgeAD": 1962,
+        "CO2MixingRatioPpm": 317
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 201,
+        "analysisDate": "27-Jul-92",
+        "iceAgeAD": 1923,
+        "airAgeAD": 1953,
+        "CO2MixingRatioPpm": 311.9
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 208,
+        "analysisDate": "13-Nov-92",
+        "iceAgeAD": 1923,
+        "airAgeAD": 1953,
+        "CO2MixingRatioPpm": 311
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 236,
+        "analysisDate": "12-Aug-93",
+        "iceAgeAD": 1923,
+        "airAgeAD": 1953,
+        "CO2MixingRatioPpm": 312.7
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 227,
+        "analysisDate": "2-Aug-93",
+        "iceAgeAD": 1914,
+        "airAgeAD": 1944,
+        "CO2MixingRatioPpm": 309.7
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 243,
+        "analysisDate": "8-Oct-93",
+        "iceAgeAD": 1909,
+        "airAgeAD": 1939,
+        "CO2MixingRatioPpm": 311
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 240,
+        "analysisDate": "19-Aug-93",
+        "iceAgeAD": 1908,
+        "airAgeAD": 1938,
+        "CO2MixingRatioPpm": 310.5
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 238,
+        "analysisDate": "13-Aug-93",
+        "iceAgeAD": 1902,
+        "airAgeAD": 1932,
+        "CO2MixingRatioPpm": 307.8
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 231,
+        "analysisDate": "10-Aug-93",
+        "iceAgeAD": 1894,
+        "airAgeAD": 1924,
+        "CO2MixingRatioPpm": 304.8
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 237,
+        "analysisDate": "13-Aug-93",
+        "iceAgeAD": 1894,
+        "airAgeAD": 1924,
+        "CO2MixingRatioPpm": 304.1
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 233,
+        "analysisDate": "11-Aug-93",
+        "iceAgeAD": 1885,
+        "airAgeAD": 1915,
+        "CO2MixingRatioPpm": 301.3
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 239,
+        "analysisDate": "17-Aug-93",
+        "iceAgeAD": 1882,
+        "airAgeAD": 1912,
+        "CO2MixingRatioPpm": 300.7
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 253,
+        "analysisDate": "19-Jul-95",
+        "iceAgeAD": 1875,
+        "airAgeAD": 1905,
+        "CO2MixingRatioPpm": 296.9
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 254,
+        "analysisDate": "3-Aug-95",
+        "iceAgeAD": 1875,
+        "airAgeAD": 1905,
+        "CO2MixingRatioPpm": 298.5
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 230,
+        "analysisDate": "10-Aug-93",
+        "iceAgeAD": 1868,
+        "airAgeAD": 1898,
+        "CO2MixingRatioPpm": 294.7
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 241,
+        "analysisDate": "19-Aug-93",
+        "iceAgeAD": 1862,
+        "airAgeAD": 1892,
+        "CO2MixingRatioPpm": 294.6
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 252,
+        "analysisDate": "19-Jul-95",
+        "iceAgeAD": 1856,
+        "airAgeAD": 1886,
+        "CO2MixingRatioPpm": 293.7
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 229,
+        "analysisDate": "10-Aug-93",
+        "iceAgeAD": 1852,
+        "airAgeAD": 1882,
+        "CO2MixingRatioPpm": 291.9
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 255,
+        "analysisDate": "3-Aug-95",
+        "iceAgeAD": 1847,
+        "airAgeAD": 1877,
+        "CO2MixingRatioPpm": 288.8
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 228,
+        "analysisDate": "6-Aug-93",
+        "iceAgeAD": 1839,
+        "airAgeAD": 1869,
+        "CO2MixingRatioPpm": 287.4
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 232,
+        "analysisDate": "11-Aug-93",
+        "iceAgeAD": 1831,
+        "airAgeAD": 1861,
+        "CO2MixingRatioPpm": 286.6
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 234,
+        "analysisDate": "12-Aug-93",
+        "iceAgeAD": 1824,
+        "airAgeAD": 1854,
+        "CO2MixingRatioPpm": 284.9
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 200,
+        "analysisDate": "26-Jun-92",
+        "iceAgeAD": 1820,
+        "airAgeAD": 1850,
+        "CO2MixingRatioPpm": 285.2
+    },
+    {
+        "iceId": "DE08",
+        "sampleId": 222,
+        "analysisDate": "29-Jul-93",
+        "iceAgeAD": 1810,
+        "airAgeAD": 1840,
+        "CO2MixingRatioPpm": 283
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 8,
+        "analysisDate": "9-Dec-93",
+        "iceAgeAD": 1948,
+        "airAgeAD": 1978,
+        "CO2MixingRatioPpm": 335.2
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 12,
+        "analysisDate": "15-Dec-93",
+        "iceAgeAD": 1948,
+        "airAgeAD": 1978,
+        "CO2MixingRatioPpm": 332
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 3,
+        "analysisDate": "17-Aug-93",
+        "iceAgeAD": 1945,
+        "airAgeAD": 1975,
+        "CO2MixingRatioPpm": 331.2
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 2,
+        "analysisDate": "6-Aug-93",
+        "iceAgeAD": 1943,
+        "airAgeAD": 1973,
+        "CO2MixingRatioPpm": 328.1
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 5,
+        "analysisDate": "24-Aug-93",
+        "iceAgeAD": 1941,
+        "airAgeAD": 1971,
+        "CO2MixingRatioPpm": 324.1
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 15,
+        "analysisDate": "3-Aug-95",
+        "iceAgeAD": 1940.2,
+        "airAgeAD": 1970,
+        "CO2MixingRatioPpm": 325.2
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 16,
+        "analysisDate": "3-Aug-95",
+        "iceAgeAD": 1939.7,
+        "airAgeAD": 1970,
+        "CO2MixingRatioPpm": 324.7
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 9,
+        "analysisDate": "15-Dec-93",
+        "iceAgeAD": 1918,
+        "airAgeAD": 1948,
+        "CO2MixingRatioPpm": 309.9
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 7,
+        "analysisDate": "9-Dec-93",
+        "iceAgeAD": 1910,
+        "airAgeAD": 1940,
+        "CO2MixingRatioPpm": 310.5
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 11,
+        "analysisDate": "15-Dec-93",
+        "iceAgeAD": 1904,
+        "airAgeAD": 1934,
+        "CO2MixingRatioPpm": 309.2
+    },
+    {
+        "iceId": "DE08-2",
+        "sampleId": 6,
+        "analysisDate": "9-Dec-93",
+        "iceAgeAD": 1802,
+        "airAgeAD": 1832,
+        "CO2MixingRatioPpm": 284.5
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 4,
+        "analysisDate": "13-Nov-92",
+        "iceAgeAD": 1901,
+        "airAgeAD": 1959,
+        "CO2MixingRatioPpm": 315.7
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 1,
+        "analysisDate": "20-Aug-92",
+        "iceAgeAD": 1896,
+        "airAgeAD": 1954,
+        "CO2MixingRatioPpm": 313.6
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 2,
+        "analysisDate": "21-Aug-92",
+        "iceAgeAD": 1896,
+        "airAgeAD": 1954,
+        "CO2MixingRatioPpm": 314.7
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 3,
+        "analysisDate": "21-Aug-92",
+        "iceAgeAD": 1896,
+        "airAgeAD": 1954,
+        "CO2MixingRatioPpm": 314.1
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 29,
+        "analysisDate": "24-Nov-93",
+        "iceAgeAD": 1890,
+        "airAgeAD": 1948,
+        "CO2MixingRatioPpm": 311.4
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 37,
+        "analysisDate": "7-Jun-95",
+        "iceAgeAD": 1881,
+        "airAgeAD": 1939,
+        "CO2MixingRatioPpm": 309.2
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 27,
+        "analysisDate": "18-Nov-93",
+        "iceAgeAD": 1878,
+        "airAgeAD": 1936,
+        "CO2MixingRatioPpm": 307.9
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 41,
+        "analysisDate": "15-Jun-95",
+        "iceAgeAD": 1871,
+        "airAgeAD": 1929,
+        "CO2MixingRatioPpm": 305.2
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 8,
+        "analysisDate": "13-Aug-93",
+        "iceAgeAD": 1868,
+        "airAgeAD": 1926,
+        "CO2MixingRatioPpm": 305
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 33,
+        "analysisDate": "2-Jun-95",
+        "iceAgeAD": 1847,
+        "airAgeAD": 1905,
+        "CO2MixingRatioPpm": 299
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 7,
+        "analysisDate": "11-Aug-93",
+        "iceAgeAD": 1841,
+        "airAgeAD": 1899,
+        "CO2MixingRatioPpm": 296.5
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 30,
+        "analysisDate": "24-Nov-93",
+        "iceAgeAD": 1833,
+        "airAgeAD": 1891,
+        "CO2MixingRatioPpm": 294.7
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 9,
+        "analysisDate": "20-Aug-93",
+        "iceAgeAD": 1787,
+        "airAgeAD": 1845,
+        "CO2MixingRatioPpm": 286.1
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 10,
+        "analysisDate": "20-Aug-93",
+        "iceAgeAD": 1767,
+        "airAgeAD": 1825,
+        "CO2MixingRatioPpm": 285.1
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 15,
+        "analysisDate": "8-Oct-93",
+        "iceAgeAD": 1738,
+        "airAgeAD": 1796,
+        "CO2MixingRatioPpm": 283.7
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 16,
+        "analysisDate": "14-Oct-93",
+        "iceAgeAD": 1736,
+        "airAgeAD": 1794,
+        "CO2MixingRatioPpm": 281.6
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 17,
+        "analysisDate": "14-Oct-93",
+        "iceAgeAD": 1719,
+        "airAgeAD": 1777,
+        "CO2MixingRatioPpm": 279.5
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 31,
+        "analysisDate": "2-Jun-95",
+        "iceAgeAD": 1702,
+        "airAgeAD": 1760,
+        "CO2MixingRatioPpm": 276.7
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 14,
+        "analysisDate": "23-Aug-93",
+        "iceAgeAD": 1691,
+        "airAgeAD": 1749,
+        "CO2MixingRatioPpm": 277.2
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 25,
+        "analysisDate": "10-Nov-93",
+        "iceAgeAD": 1689,
+        "airAgeAD": 1747,
+        "CO2MixingRatioPpm": 276.9
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 19,
+        "analysisDate": "21-Oct-93",
+        "iceAgeAD": 1662,
+        "airAgeAD": 1720,
+        "CO2MixingRatioPpm": 277.5
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 11,
+        "analysisDate": "20-Aug-93",
+        "iceAgeAD": 1634,
+        "airAgeAD": 1692,
+        "CO2MixingRatioPpm": 276.5
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 20,
+        "analysisDate": "21-Oct-93",
+        "iceAgeAD": 1621,
+        "airAgeAD": 1679,
+        "CO2MixingRatioPpm": 275.9
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 13,
+        "analysisDate": "23-Aug-93",
+        "iceAgeAD": 1589,
+        "airAgeAD": 1647,
+        "CO2MixingRatioPpm": 277.2
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 12,
+        "analysisDate": "23-Aug-93",
+        "iceAgeAD": 1546,
+        "airAgeAD": 1604,
+        "CO2MixingRatioPpm": 274.3
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 21,
+        "analysisDate": "28-Oct-93",
+        "iceAgeAD": 1531,
+        "airAgeAD": 1589,
+        "CO2MixingRatioPpm": 278.7
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 32,
+        "analysisDate": "2-Jun-95",
+        "iceAgeAD": 1512,
+        "airAgeAD": 1570,
+        "CO2MixingRatioPpm": 281.9
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 18,
+        "analysisDate": "21-Oct-93",
+        "iceAgeAD": 1489,
+        "airAgeAD": 1547,
+        "CO2MixingRatioPpm": 282.8
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 35,
+        "analysisDate": "7-Jun-95",
+        "iceAgeAD": 1469,
+        "airAgeAD": 1527,
+        "CO2MixingRatioPpm": 283.2
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 23,
+        "analysisDate": "10-Nov-93",
+        "iceAgeAD": 1441,
+        "airAgeAD": 1499,
+        "CO2MixingRatioPpm": 282.4
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 44,
+        "analysisDate": "30-Jun-95",
+        "iceAgeAD": 1407,
+        "airAgeAD": 1465,
+        "CO2MixingRatioPpm": 279.6
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 22,
+        "analysisDate": "28-Oct-93",
+        "iceAgeAD": 1388,
+        "airAgeAD": 1446,
+        "CO2MixingRatioPpm": 281.7
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 24,
+        "analysisDate": "10-Nov-93",
+        "iceAgeAD": 1329,
+        "airAgeAD": 1387,
+        "CO2MixingRatioPpm": 280
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 26,
+        "analysisDate": "18-Nov-93",
+        "iceAgeAD": 1329,
+        "airAgeAD": 1387,
+        "CO2MixingRatioPpm": 280.4
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 34,
+        "analysisDate": "5-Jun-95",
+        "iceAgeAD": 1269,
+        "airAgeAD": 1327,
+        "CO2MixingRatioPpm": 283.4
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 39,
+        "analysisDate": "14-Jun-95",
+        "iceAgeAD": 1188,
+        "airAgeAD": 1246,
+        "CO2MixingRatioPpm": 281.7
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 36,
+        "analysisDate": "9-Jun-95",
+        "iceAgeAD": 1138,
+        "airAgeAD": 1196,
+        "CO2MixingRatioPpm": 283.9
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 43,
+        "analysisDate": "30-Jun-95",
+        "iceAgeAD": 1088,
+        "airAgeAD": 1146,
+        "CO2MixingRatioPpm": 283.8
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 42,
+        "analysisDate": "15-Jun-95",
+        "iceAgeAD": 1038,
+        "airAgeAD": 1096,
+        "CO2MixingRatioPpm": 282.4
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 40,
+        "analysisDate": "14-Jun-95",
+        "iceAgeAD": 988,
+        "airAgeAD": 1046,
+        "CO2MixingRatioPpm": 280.3
+    },
+    {
+        "iceId": "DSS",
+        "sampleId": 38,
+        "analysisDate": "12-Jun-95",
+        "iceAgeAD": 948,
+        "airAgeAD": 1006,
+        "CO2MixingRatioPpm": 279.4
+    }
+]

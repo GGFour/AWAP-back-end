@@ -1,5 +1,8 @@
 # node crap
 node_modules/
 
+# docker crap
+pg_data/
+
 # secure data
 .env

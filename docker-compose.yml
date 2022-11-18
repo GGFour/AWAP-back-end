@@ -2,24 +2,32 @@
 version: '3.1'
 
 services:
+    db:
+        image: postgres
+        restart: always
+        environment:
+            POSTGRES_PASSWORD: '${POSTGRES_PASSWORD}'
+            POSTGRES_USER: '${POSTGRES_USER}'
+            POSTGRES_DB: '${POSTGRES_DB}'
+            PGDATA: '/var/lib/postgresql/data/pgdata'
 
-  db:
-    image: postgres
-    restart: always
-    environment:
-      POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
-      POSTGRES_USER: "${POSTGRES_USER}"
-      POSTGRES_DB: "${POSTGRES_DB}"
-      PGDATA: "/var/lib/postgresql/data/pgdata"
+        volumes:
+            - pg-data:/var/lib/postgresql/data/pgdata
+            - type: bind
+              source: ./database-skeleton.sql
+              target: /docker-entrypoint-initdb.d/1.sql
+            - type: bind
+              source: ./database-data.sql
+              target: /docker-entrypoint-initdb.d/2.sql
 
-    volumes:
-      - pg-data:/var/lib/postgresql/data/pgdata
+        ports:
+            - 5432:5432
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
+    adminer:
+        image: adminer
+        restart: always
+        ports:
+            - 8080:8080
 
 volumes:
-  pg-data:
+    pg-data:

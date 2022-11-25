@@ -3,9 +3,9 @@
  */
 const pool = require('../model/pool')
 
-async function getVisualizationData(visId = 1) {
+async function getVisualizationData(visId) {
     let visData = await pool.query(`SELECT * FROM visualizations WHERE id=$1`, [
-        visId,
+        visId
     ])
     let data = await pool.query(`SELECT * FROM visualization${visId}`)
     let result = visData.rows[0]

@@ -1,4 +1,6 @@
--- Adminer 4.8.1 PostgreSQL 15.1 (Debian 15.1-1.pgdg110+1) dump
+-- Adminer 4.8.1 PostgreSQL 14.2 (Debian 14.2-1.pgdg110+1) dump
+
+
 
 INSERT INTO "visualization1" ("id", "x", "y", "annual", "hemisphere") VALUES
 (1,	'1850-01-01',	-0.67456436,	'0',	0),
@@ -28522,14 +28524,18 @@ INSERT INTO "visualization9" ("id", "sector", "subsector", "val") VALUES
 (29,	'Waste',	'Wastewater',	1.3);
 
 INSERT INTO "visualizations" ("id", "name", "description", "table_name", "source") VALUES
-(1,	'Global historical surface temperature anomalies from January 1850 onwards',	'',	'visualization1',	''),
-(2,	'Northern Hemisphere 2,000-year temperature reconstruction',	'',	'visualization2',	''),
-(3,	'Atmospheric CO2 concentrations from Mauna Loa measurements starting 1958',	'',	'visualization3',	''),
-(4,	'Antarctic Ice Core records of atmospheric CO2 ratios combined with Mauna Loa measurements',	'',	'visualization4',	''),
-(5,	'Vostok Ice Core CO2 measurements, 417160 - 2342 years',	'',	'visualization5',	''),
-(6,	'Ice core 800k year composite study CO2 measurements',	'',	'visualization6',	''),
-(7,	'Evolution of global temperature over the past two million years',	'',	'visualization7',	''),
-(8,	'CO2 emissions by country',	'',	'visualization8',	''),
-(9,	'CO2 emissions by sectors',	'',	'visualization9',	'');
+(1,	'Global historical surface temperature anomalies from January 1850 onwards',	'The gridded data are a blend of the land-surface air temperature dataset and the sea-surface temperature anomalies relative to a 1961-1990 reference period. Data are available for each month from January 1850 onwards, on a 5 degree grid and as global and regional average time series. The dataset is a collaborative product of the Met Office Hadley Centre and the Climatic Research Unit at the University of East Anglia ',	'visualization1',	'https://www.metoffice.gov.uk/hadobs/hadcrut5/'),
+(2,	'Northern Hemisphere 2,000-year temperature reconstruction',	'Northern Hemisphere temperature reconstruction for the past 2,000 years by combining low-resolution proxies with tree-ring data, using a wavelet transform technique to achieve timescale-dependent processing of the data. Link to full case study, which includes data measurements description - https://www.nature.com/articles/nature03265',	'visualization2',	'https://bolin.su.se/data/moberg-2012-nh-1?n=moberg-2005'),
+(3,	'Atmospheric CO2 concentrations from Mauna Loa measurements starting 1958',	'CO2 concentrations measurements made at the Mauna Loa Observatory reflect truth about our global atmosphere. The main reasons for that confidence are:
+                        1. The Observatory near the summit of Mauna Loa, at an altitude of 3400 m, is well situated to measure air masses that are representative of very large areas.
+                        2. All of the measurements are rigorously and very frequently calibrated.
+                        3. Ongoing comparisons of independent measurements at the same site allow an estimate of the accuracy, which is generally better than 0.2 ppm.
+                        Link - https://gml.noaa.gov/ccgg/about/co2_measurements.html ',	'visualization3',	'https://gml.noaa.gov/ccgg/trends/data.html'),
+(4,	'Antarctic Ice Core records of atmospheric CO2 ratios combined with Mauna Loa measurements',	'The CO2 records presented here are derived from three ice cores obtained at Law Dome, East Antarctica from 1987 to 1993. The Law Dome site satisfies many of the desirable characteristics of an ideal ice core site for atmospheric CO2 reconstructions including negligible melting of the ice sheet surface, low concentrations of impurities, regular stratigraphic layering undisturbed at the surface by wind or at depth by ice flow, and high snow accumulation rate. Further details on the site, drilling, and cores are provided in Etheridge et al. (1996), Etheridge and Wookey (1989), and Morgan et al (1997).',	'visualization4',	'https://cdiac.ess-dive.lbl.gov/ftp/trends/co2/lawdome.combined.dat'),
+(5,	'Vostok Ice Core CO2 measurements, 417160 - 2342 years',	'In January 1998, the collaborative ice-drilling project at the Russian Vostok station in East Antarctica yielded the deepest ice core ever recovered, reaching a depth of 3,623 m (Petit et al. 1997, 1999). ',	'visualization5',	'https://cdiac.ess-dive.lbl.gov/ftp/trends/co2/vostok.icecore.co2'),
+(6,	'Ice core 800k year composite study CO2 measurements',	'The European Project for Ice Coring in Antarctica Dome ice core from Dome C (EDC) has allowed for the reconstruction of atmospheric CO2 concentrations for the last 800,000 years.',	'visualization6',	'https://www.ncei.noaa.gov/pub/data/paleo/icecore/antarctica/antarctica2015co2composite.txt'),
+(7,	'Evolution of global temperature over the past two million years',	'Here I present a spatially weighted proxy reconstruction of global temperature over the past 2 million years estimated from a multi-proxy database of over 20,000 sea surface temperature point reconstructions. Global temperature gradually cooled until roughly 1.2 million years ago and cooling then stalled until the present.',	'visualization7',	'http://carolynsnyder.com/papers/Snyder_Data_Figures.zip'),
+(8,	'CO2 emissions by country',	'Stacked line chart showing CO2 emissions of each country from 1959 to 2021',	'visualization8',	'https://data.icos-cp.eu/licence_accept?ids=%5B%22lApekzcmd4DRC34oGXQqOxbJ%22%5D'),
+(9,	'CO2 emissions by sectors',	'The pie chart shows the breakdown of global greenhouse gas emissions in 2016. This is the latest breakdown of global emissions by sector and its sub-sectors, published by Climate Watch and the World Resources Institute.',	'visualization9',	'https://ourworldindata.org/uploads/2020/09/Global-GHG-Emissions-by-sector-based-on-WRI-2020.xlsx');
 
--- 2022-11-20 09:20:53.03219+00
+-- 2022-11-25 12:04:53.131402+00

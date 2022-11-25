@@ -9,7 +9,7 @@ This is an school group project. On our page you will find a data visualization 
 ### Npm scripts description
 
 -   `npm start` - runs backend
--   `npm run devstart` - runs backend with **nodemon**
+-   `npm run dev` - runs backend with **nodemon**
 -   `npm run db:up` - runs database container (docker required)
 -   `npm run db:down` - stops database container and removes volume
 -   `npm run format:check` - runs prettier and shows files with bad formatting

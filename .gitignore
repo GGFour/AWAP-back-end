@@ -6,3 +6,6 @@ pg_data/
 
 # secure data
 .env
+
+
+.rest

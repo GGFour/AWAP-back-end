@@ -22,10 +22,9 @@ CREATE TABLE "public"."users" (
     "id" integer DEFAULT nextval('users_id_seq') NOT NULL,
     "username" character varying(32) NOT NULL,
     "password" character varying(256) NOT NULL,
-    "email" character varying(128) NOT NULL,
+    -- "email" character varying(128) NOT NULL,
     CONSTRAINT "users_pkey" PRIMARY KEY ("id")
 ) WITH (oids = false);
-
 
 DROP TABLE IF EXISTS "visualization1";
 DROP SEQUENCE IF EXISTS visualization1_id_seq;

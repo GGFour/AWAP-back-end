@@ -27,4 +27,16 @@ async function getVisualizations() {
     return visualizationsRows
 }
 
-module.exports = { getVisualizationData, getVisualizations }
+async function addDIYVisualization(username, configuration) {
+    await pool.query(
+        `INSERT into custom_visualizations (configuration, user_id) VALUES ($1, (SELECT id FROM users WHERE username = $2))`,
+        [configuration, username]
+    )
+    return true
+}
+
+module.exports = {
+    getVisualizationData,
+    getVisualizations,
+    addDIYVisualization,
+}

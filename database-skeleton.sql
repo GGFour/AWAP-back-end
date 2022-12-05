@@ -1,15 +1,13 @@
 -- Adminer 4.8.1 PostgreSQL 15.1 (Debian 15.1-1.pgdg110+1) dump
 
-
-DROP SEQUENCE IF EXISTS custom_visualizations_id_seq;
-CREATE SEQUENCE custom_visualizations_id_seq INCREMENT 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1;
+DROP TABLE IF EXISTS "custom_visualizations";
+DROP SEQUENCE IF EXISTS custom_visualizations_id_seq1;
+CREATE SEQUENCE custom_visualizations_id_seq1 INCREMENT 1 MINVALUE 1 MAXVALUE 2147483647 CACHE 1;
 
 CREATE TABLE "public"."custom_visualizations" (
-    "id" integer DEFAULT nextval('custom_visualizations_id_seq') NOT NULL,
+    "id" uuid DEFAULT gen_random_uuid() NOT NULL,
     "user_id" integer NOT NULL,
     "configuration" json NOT NULL,
-    "hash" character varying(256) NOT NULL,
-    CONSTRAINT "custom_visualizations_hash" UNIQUE ("hash"),
     CONSTRAINT "custom_visualizations_pkey" PRIMARY KEY ("id")
 ) WITH (oids = false);
 
@@ -22,9 +20,10 @@ CREATE TABLE "public"."users" (
     "id" integer DEFAULT nextval('users_id_seq') NOT NULL,
     "username" character varying(32) NOT NULL,
     "password" character varying(256) NOT NULL,
-    -- "email" character varying(128) NOT NULL,
-    CONSTRAINT "users_pkey" PRIMARY KEY ("id")
+    CONSTRAINT "users_pkey" PRIMARY KEY ("id"),
+    CONSTRAINT "users_username" UNIQUE ("username")
 ) WITH (oids = false);
+
 
 DROP TABLE IF EXISTS "visualization1";
 DROP SEQUENCE IF EXISTS visualization1_id_seq;
@@ -156,4 +155,4 @@ CREATE TABLE "public"."visualizations" (
 
 ALTER TABLE ONLY "public"."custom_visualizations" ADD CONSTRAINT "custom_visualizations_user_id_fkey" FOREIGN KEY (user_id) REFERENCES users(id) ON UPDATE CASCADE ON DELETE CASCADE NOT DEFERRABLE;
 
--- 2022-11-20 14:07:33.331397+00
+-- 2022-12-05 15:05:49.925232+00

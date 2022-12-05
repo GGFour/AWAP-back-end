@@ -39,9 +39,7 @@ router.post('/signup', validator, async (req, res) => {
 // route for login
 router.post('/login', validator, async (req, res) => {
     try {
-        //1. step: destructuring the body.req
         const { username, password } = req.body
-        //2. step:  check if user does not esxit? throw error.
         const user = await pool.query('SELECT * FROM users WHERE username=$1', [
             username,
         ])
@@ -58,7 +56,7 @@ router.post('/login', validator, async (req, res) => {
             return res.status(401).json('Wrong password or username')
         }
         //4. give them the jwt token
-        const token = jwtGenerator(newUser.row[0])
+        const token = jwtGenerator(user.rows[0])
         res.json({ token }) //testing
     } catch (err) {
         console.error(err.message)
@@ -69,9 +67,9 @@ router.post('/login', validator, async (req, res) => {
 /**
  * The endpoint for debug purpusess that would be removed in prod.
  */
-router.post('/isAuthorized', authorizer, (req, res) => {
+router.get('/isAuthorized', authorizer, (req, res) => {
     try {
-        res.json(true)
+        res.json(req.user)
     } catch (err) {
         console.error(err.message)
         res.status(500).send('Server error')

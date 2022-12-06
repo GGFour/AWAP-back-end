@@ -39,11 +39,14 @@ router.get('/visualization', async function (req, res, next) {
     }
 })
 
-/* GET visualization x data */
+/* POST user specific visualization configuration */
 router.post('/diy', authorizer, async function (req, res, next) {
     try {
-        await addDIYVisualization(req.user.username, req.body.configuration)
-        return res.status('200').json({ message: 'OK' })
+        const id = await addDIYVisualization(
+            req.user.username,
+            req.body.configuration
+        )
+        return res.status('200').json({ message: 'OK', id: id })
     } catch (e) {
         console.error(e)
         return res.status('500').json({ message: 'Im not working' })

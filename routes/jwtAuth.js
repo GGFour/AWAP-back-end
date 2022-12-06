@@ -36,8 +36,7 @@ router.post('/signup', validator, async (req, res) => {
             'INSERT INTO users (username, password) VALUES ($1, $2) RETURNING *',
             [username, bcryptPassword]
         )
-        // res.json(newUser.rows[0]) //testing
-        //5. step: generating jwt token
+        return res.status(200).json({ message: 'OK' })
     } catch (err) {
         console.error(err)
         res.status(500).send('Server Error')

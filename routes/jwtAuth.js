@@ -73,6 +73,20 @@ router.post('/login', validator, async (req, res) => {
 })
 
 /**
+ *  Route for deleting a user
+ */
+router.delete('/user', authorizer, async (req, res) => {
+    try {
+        const username = req.user.username
+        await pool.query('DELETE FROM users WHERE username=$1', [username])
+        res.status(200).send(`User deleted with Name: ${username}`)
+    } catch (err) {
+        console.error(err.message)
+        res.status(500).send('Server error')
+    }
+})
+
+/**
  * The endpoint for debug purpusess that would be removed in prod.
  */
 router.get('/isAuthorized', authorizer, (req, res) => {

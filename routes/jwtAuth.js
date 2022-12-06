@@ -6,6 +6,14 @@ const bcrypt = require('bcrypt')
 const jwtGenerator = require('../utils/jwtGenerator')
 const validator = require('../middleware/validator')
 const authorizer = require('../middleware/authorizer')
+const rateLimit = require('express-rate-limit')
+
+const limiter = rateLimit({
+    windowMs: 1 * 60 * 1000, // 1 minute
+    max: 10,
+})
+
+router.use(limiter)
 
 // route for sigup
 router.post('/signup', validator, async (req, res) => {

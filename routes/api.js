@@ -1,14 +1,21 @@
 /**
  * This file contains routes for getting visualizations data
  */
-let express = require('express')
+let router = require('express').Router()
 let {
     getVisualizationData,
     getVisualizations,
     addDIYVisualization,
 } = require('../controllers/visualizations')
 const authorizer = require('../middleware/authorizer')
-let router = express.Router()
+const rateLimit = require('express-rate-limit')
+
+const limiter = rateLimit({
+    windowMs: 1 * 60 * 1000, // 1 minute
+    max: 30,
+})
+
+router.use(limiter)
 
 /* GET visualizations data */
 router.get('/visualizations', async function (req, res, next) {

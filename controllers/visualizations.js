@@ -28,11 +28,15 @@ async function getVisualizations() {
 }
 
 async function addDIYVisualization(username, configuration) {
-    await pool.query(
-        `INSERT into custom_visualizations (configuration, user_id) VALUES ($1, (SELECT id FROM users WHERE username = $2))`,
-        [configuration, username]
+    const data2Store = {
+        username: username,
+        configuration: configuration,
+    }
+    const res = await pool.query(
+        `INSERT into custom_visualizations (configuration, user_id) VALUES ($1, (SELECT id FROM users WHERE username = $2)) RETURNING id`,
+        [data2Store, username]
     )
-    return true
+    return res.rows[0].id
 }
 
 module.exports = {

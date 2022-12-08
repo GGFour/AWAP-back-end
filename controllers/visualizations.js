@@ -27,7 +27,7 @@ async function getVisualizations() {
     return visualizationsRows
 }
 
-async function addDIYVisualization(username, configuration) {
+async function addCustomVisualization(username, configuration) {
     const data2Store = {
         username: username,
         configuration: configuration,
@@ -39,8 +39,40 @@ async function addDIYVisualization(username, configuration) {
     return res.rows[0].id
 }
 
+async function getCustomVisualizations(id) {
+    let customVisData = await pool.query(
+        `SELECT * FROM custom_visualizations WHERE user_id=$1`,
+        [id]
+    )
+
+    return customVisData
+}
+async function getCustomById(id) {
+    let customVisData = await pool.query(
+        `SELECT * FROM custom_visualizations WHERE id=$1`,
+        [id]
+    )
+
+    return customVisData
+}
+
+async function deleteCustomVisualization(visid, username) {
+    let deletedCustom = await pool.query(
+        'DELETE FROM custom_visualizations WHERE id=$1 AND user_id=(SELECT id FROM users WHERE username=$2) RETURNING id',
+        [visid, username]
+    )
+    if (deletedCustom.rows.length == 0) {
+        throw new Error('Visualization is not exist')
+    }
+
+    return deletedCustom
+}
+
 module.exports = {
     getVisualizationData,
     getVisualizations,
-    addDIYVisualization,
+    addCustomVisualization,
+    getCustomVisualizations,
+    deleteCustomVisualization,
+    getCustomById,
 }

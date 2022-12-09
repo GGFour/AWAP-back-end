@@ -15,7 +15,7 @@ const rateLimit = require('express-rate-limit')
 
 const limiter = rateLimit({
     windowMs: 1 * 60 * 1000, // 1 minute
-    max: 30,
+    max: 50,
 })
 
 router.use(limiter)
@@ -56,7 +56,7 @@ router.post('/custom', authorizer, async function (req, res, next) {
     }
 })
 /* GET a specific custom visualization by id */
-router.get('/custom', authorizer, async function (req, res, next) {
+router.get('/custom', async function (req, res, next) {
     try {
         const data = await getCustomById(req.query.id)
         return res.status('200').json(data)

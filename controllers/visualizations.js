@@ -45,15 +45,17 @@ async function getCustomVisualizations(id) {
         [id]
     )
 
-    return customVisData
+    return customVisData.rows
 }
 async function getCustomById(id) {
     let customVisData = await pool.query(
         `SELECT * FROM custom_visualizations WHERE id=$1`,
         [id]
     )
-
-    return customVisData
+    if (customVisData.rows.length == 0) {
+        throw new Error('Visualization does not exist')
+    }
+    return customVisData.rows[0].configuration
 }
 
 async function deleteCustomVisualization(visid, username) {
@@ -62,10 +64,9 @@ async function deleteCustomVisualization(visid, username) {
         [visid, username]
     )
     if (deletedCustom.rows.length == 0) {
-        throw new Error('Visualization is not exist')
+        throw new Error('Visualization does not exist')
     }
-
-    return deletedCustom
+    return deletedCustom.rows[0].id
 }
 
 module.exports = {

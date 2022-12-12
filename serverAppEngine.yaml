@@ -1,0 +1,9 @@
+runtime: nodejs16
+service: server
+env_variables:
+    ROUNDS: 10
+    TOKEN_SECRET: 'adsfbasasdfhuoiajkldurwieh'
+    POSTGRES_PASSWORD: "H=-'>Fd$cP3)9n+y"
+    POSTGRES_USER: 'datacenter'
+    POSTGRES_DB: 'my-database'
+    POSTGRES_HOST: '/cloudsql/team9-din21awap:europe-west1:gg4-data-vis-db'

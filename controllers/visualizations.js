@@ -39,10 +39,10 @@ async function addCustomVisualization(username, configuration) {
     return res.rows[0].id
 }
 
-async function getCustomVisualizations(id) {
+async function getCustomVisualizations(username) {
     let customVisData = await pool.query(
-        `SELECT * FROM custom_visualizations WHERE user_id=$1`,
-        [id]
+        `SELECT * FROM custom_visualizations WHERE user_id=(SELECT id FROM users WHERE username=$1)`,
+        [username]
     )
 
     return customVisData.rows

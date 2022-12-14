@@ -82,7 +82,7 @@ router.delete('/custom', authorizer, async function (req, res, next) {
 /* GET all custom visualizations created by user */
 router.get('/listcustom', authorizer, async function (req, res, next) {
     try {
-        const data = await getCustomVisualizations(req.user.id)
+        const data = await getCustomVisualizations(req.user.username)
         return res.status('200').json(data)
     } catch (e) {
         console.error(e)
